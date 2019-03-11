@@ -1,0 +1,53 @@
+.App input/*, .App button*/ {
+  margin: 35px;
+  padding: 10px, 20px;
+  border: 3px solid gray;
+  background-color: white;
+  border-radius: 5px;
+  font-size: 1.55em;
+  transition: 0.3s; 
+}
+/*
+.App button {
+  cursor: pointer;
+}
+*/
+.App input:hover {
+  border: 5px solid blue;
+  background-color: rgb(36, 35, 35);
+  color: antiquewhite;
+	border-radius: 3px;
+}
+/*
+.App button:hover {
+  border: 3px solid blueviolet;
+  background-color: black;
+  color: antiquewhite;
+  
+	border-radius: 8px;
+}
+*/
+.Result{
+  margin-left: 30px;
+  color: red;
+  font-size: 20px;
+  padding-left: 10px;
+}
+
+.wyswietlane_dane{
+  margin-left: 30px;
+  color: rgb(42, 75, 165);
+}
+.wyswietlane_dane h2 em{
+  font-size: 1.5em;
+}
+ h2{
+   border-bottom: 2px solid  rgb(75, 108, 199) ;
+   width: 35%;
+   padding-left: 20px;
+   border-bottom-left-radius: 7%;
+   border-bottom-right-radius: 6%;
+ }
+ h4{
+   margin-left: 35px;
+ }
